@@ -8,10 +8,16 @@ import imagen_es from "./assets/mayi.png";
 function App() {
   const [hardcore, setHardcore] = useState(1);
   const [ishardcore, setishardcore] = useState(false);
-
+  const [mensaje, setmensaje] = useState("");
+  
   const testiong = () => {
     setHardcore(Math.round(hardcore + Math.random() * 100));
     setishardcore(true)
+    if(hardcore>150) {
+      setmensaje("Oh my god, Mayi te ama muchoooooo!! ")
+    } else if(hardcore<150){
+      setmensaje("Oww no, Mayi no te ama mucho")
+    }
   };
   const showhard = () => {
     console.log(hardcore);
@@ -48,8 +54,14 @@ function App() {
       </div>
 
       <div className={ishardcore ? "show":"none"}>
+        <p className="mensaje">{mensaje}</p>
+      </div>
+
+      <div className={ishardcore ? "show":"none"}>
         <button onClick={restart}>Restart</button>
       </div>
+
+      
 
     
      
