@@ -28,7 +28,8 @@ function App() {
     <div className="App">
      
       <div>
-        <h1>Calculadora de Amor de Mayi</h1>
+        <h1>Mayi's love calculator
+</h1>
       </div>
      
         <p>Presiona clic sobre la imagen para descubrir cuánto te ama Mayi</p>
@@ -42,7 +43,7 @@ function App() {
         whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
       > <img src={imagen_es} alt="" /></motion.button>
 
-      <div className={ishardcore ? "show":"none"}>
+      <div id="backgrond" className={ishardcore ? "show":"none"}>
         <p>Mayi te ama un {hardcore}%</p>
       </div>
 
