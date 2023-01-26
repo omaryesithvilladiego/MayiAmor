@@ -28,10 +28,10 @@ function App() {
     <div className="App">
      
       <div>
-        <h1>Love Mayi Calculator</h1>
+        <h1>Calculadora de Amor de Mayi</h1>
       </div>
      
-        <p>Presiona clic para descubrir cuánto te ama Mayi</p>
+        <p>Presiona clic sobre la imagen para descubrir cuánto te ama Mayi</p>
       
 
       <motion.button

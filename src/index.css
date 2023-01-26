@@ -31,18 +31,17 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
   
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
+  border: 2rem;
+  border-radius: 0.8rem;
   
 }
-button:hover {
-  border-color: #646cff;
-}
+
 
 
 
@@ -54,11 +53,7 @@ button:hover {
   a:hover {
     color: #747bff;
   }
-  .button {
-   background-image: url("/src/assets/pexels-jacob-von-bank-14715092.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-  }
+  
 }
 
 body {
@@ -76,9 +71,11 @@ body {
 .container {
   width: 150px;
   height: 150px;
- 
-  border-radius: 30px;
-  margin-bottom: 2rem;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  
   
 }
 
