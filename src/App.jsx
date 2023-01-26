@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import * as React from "react";
 import { motion } from "framer-motion";
 import "./App.css";
+import imagen_es from "./assets/mayi.png";
 
 function App() {
   const [hardcore, setHardcore] = useState(1);
@@ -34,11 +35,12 @@ function App() {
       
 
       <motion.button
+      
         onClick={testiong}
         className="container button"
         whileHover={{ scale: 1.2, rotate: 90 }}
         whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
-      />
+      > <img src={imagen_es} alt="" /></motion.button>
 
       <div className={ishardcore ? "show":"none"}>
         <p>Mayi te ama un {hardcore}%</p>
