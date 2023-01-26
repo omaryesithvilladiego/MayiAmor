@@ -55,7 +55,7 @@ button:hover {
     color: #747bff;
   }
   .button {
-   background-image: url("/src/assets/mayi.jpeg");
+   background-image: url("/src/assets/mayi.png");
    background-repeat: no-repeat;
    background-size: cover;
   }
