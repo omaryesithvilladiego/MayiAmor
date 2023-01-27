@@ -11,7 +11,7 @@ function App() {
   const [mensaje, setmensaje] = useState("");
   
   const testiong = () => {
-    setHardcore(Math.round(hardcore + Math.random() * 100));
+    setHardcore(Math.round(hardcore + Math.random() * 20));
     setishardcore(true)
     if(hardcore<50) {
       setmensaje("Oh no, Brenda no te ama casi")
