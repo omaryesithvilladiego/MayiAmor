@@ -52,13 +52,23 @@ img {
 #backgrond {
   background-color: #FF0000;
   border-radius: 0.5rem;
-  color: aliceblue;
-  padding: 0;
+  color: #fff;
+  padding: 0.5rem;
   margin: 0;
+  
   
   ;
 }
 
 .mensaje {
   color: aliceblue;
+}
+
+.mensaje{
+  background-color: green;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 0.5rem;
+  
+  
 }
