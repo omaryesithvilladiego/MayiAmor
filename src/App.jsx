@@ -16,7 +16,7 @@ function App() {
     if(hardcore<50) {
       setmensaje("Oh no, Brenda no te ama casi")
     } else if(hardcore>50 && hardcore<100){
-      setmensaje("Ella te esta amando un poquito mas")
+      setmensaje("Ella te esta amando un poquito más")
     } else if(hardcore>100 && hardcore<150){
       setmensaje("Ohh my god, Brenda te amaaaaa")
     }else if(hardcore>150 && hardcore<200){
