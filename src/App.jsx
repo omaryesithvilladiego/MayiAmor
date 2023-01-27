@@ -27,6 +27,8 @@ function App() {
       setmensaje("En el aire se respira amor por Montón")
     }else if(hardcore>300 && hardcore<350){
       setmensaje("Brenda está sintiendo mucho amor por ti")
+    }else if(hardcore>350 && hardcore<400){
+      setmensaje("Love Love Love")
     }else{
       setmensaje("Te informo que Brenda tiene novio, Ella no te puede amar más")
       setHardcore(0)
